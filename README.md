@@ -76,9 +76,9 @@ DB_USERNAME=root
 DB_PASSWORD=your_password
 ```
 
-4. **Migration ve Seederları çalıştırın **
+4. ** Seederları çalıştırın **
 ```bash
-php artisan migrate --seed
+php artisan db:seed
 ```
 
 ##  Kullanım
@@ -97,7 +97,7 @@ Eğer servisleri ayrı ayrı çalıştırmak isterseniz:
 ```bash
 php artisan serve
 
-php artisan queue:listen --tries=1
+php artisan queue:listen
 
 npm run dev
 ```
