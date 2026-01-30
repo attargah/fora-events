@@ -78,7 +78,7 @@ composer setup
 
 
 
-4. ** Seederları çalıştırın **
+4. **Seederları çalıştırın**
 ```bash
 php artisan db:seed
 ```
