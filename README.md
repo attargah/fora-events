@@ -60,12 +60,7 @@ git clone https://github.com/attargah/fora-events.git
 cd fora-events
 ```
 
-2. **Bağımlılıkları yükleyin ve projeyi ayarlayın**
-```bash
-composer setup 
-```
-
-3. **Veritabanı ayarlarını yapılandırın**
+2. **Veritabanı ayarlarını yapılandırın**
 
 ```env
 DB_CONNECTION=mysql
@@ -75,6 +70,13 @@ DB_DATABASE=foraevents
 DB_USERNAME=root
 DB_PASSWORD=your_password
 ```
+
+3. **Bağımlılıkları yükleyin ve projeyi ayarlayın**
+```bash
+composer setup 
+```
+
+
 
 4. ** Seederları çalıştırın **
 ```bash
@@ -97,7 +99,7 @@ Eğer servisleri ayrı ayrı çalıştırmak isterseniz:
 ```bash
 php artisan serve
 
-php artisan queue:listen
+php artisan queue:listen  
 
 npm run dev
 ```
