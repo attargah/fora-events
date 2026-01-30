@@ -57,7 +57,7 @@ Arka Yüzde ise sadece uzun kod bloklarını tek seferde yazdırmak gibi angarya
 1. **Projeyi klonlayın**
 ```bash
 git clone https://github.com/attargah/fora-events.git
-cd ForaEvents
+cd fora-events
 ```
 
 2. **Bağımlılıkları yükleyin ve projeyi ayarlayın**
